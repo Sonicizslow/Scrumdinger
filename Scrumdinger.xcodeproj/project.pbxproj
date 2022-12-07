@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7205F87729412B8D001AB4CE /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7205F87629412B8D001AB4CE /* TrailingIconLabelStyle.swift */; };
 		7214B97528F73858006CE062 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7214B97428F73858006CE062 /* ScrumdingerApp.swift */; };
 		7214B97728F73858006CE062 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7214B97628F73858006CE062 /* MeetingView.swift */; };
 		7214B97928F73859006CE062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7214B97828F73859006CE062 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7205F87629412B8D001AB4CE /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		7214B97128F73858006CE062 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7214B97428F73858006CE062 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		7214B97628F73858006CE062 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			children = (
 				7214B99F28F78476006CE062 /* Theme.swift */,
 				7214B9A328F7923F006CE062 /* DailyScrum.swift */,
+				7205F87629412B8D001AB4CE /* TrailingIconLabelStyle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7214B9A428F7923F006CE062 /* DailyScrum.swift in Sources */,
+				7205F87729412B8D001AB4CE /* TrailingIconLabelStyle.swift in Sources */,
 				7214B9A028F78476006CE062 /* Theme.swift in Sources */,
 				7214B97728F73858006CE062 /* MeetingView.swift in Sources */,
 				7214B97528F73858006CE062 /* ScrumdingerApp.swift in Sources */,
@@ -441,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				DEVELOPMENT_TEAM = NF3442P56W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -469,6 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				DEVELOPMENT_TEAM = NF3442P56W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
